@@ -5,17 +5,20 @@
   
 
   
-  <title>Hexo</title>
+  <title>东风小草</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="人生这么长，总得干些什么">
+<meta property="og:type" content="website">
+<meta property="og:title" content="东风小草">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="东风小草">
+<meta property="og:description" content="人生这么长，总得干些什么">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="东风小草">
+<meta name="twitter:description" content="人生这么长，总得干些什么">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="东风小草" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -34,8 +37,12 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">东风小草</a>
       </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">人生这么长，总得干些什么</a>
+        </h2>
       
     </div>
     <div id="header-inner" class="inner">
@@ -51,7 +58,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -62,10 +69,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-搭建SS" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/04/23/hello-world/" class="article-date">
-  <time datetime="2018-04-23T15:32:49.338Z" itemprop="datePublished">2018-04-23</time>
+    <a href="/2017/11/12/搭建SS/" class="article-date">
+  <time datetime="2017-11-12T15:23:12.000Z" itemprop="datePublished">2017-11-12</time>
 </a>
     
   </div>
@@ -76,7 +83,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/23/hello-world/">Hello World</a>
+      <a class="article-title" href="/2017/11/12/搭建SS/">在vps上搭建SS</a>
     </h1>
   
 
@@ -84,22 +91,381 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>1.首先我们需要一个适合自己的vps，按照自己现在的需求购买即可，安装好centos系统。</p>
+<p>2.使用<a href="http://www.netsarang.com/products/xsh_overview.html" target="_blank" rel="noopener">xshell5</a>连接已经买好的vps。</p>
+<p>3.开始搭建服务端的ss</p>
+<ul>
+<li><p>输入以下代码回车升级Linux所有包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum update -y</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装git</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install wget nano git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>安装ss</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. wget --no-check-certificate </span><br><span class="line">https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh</span><br><span class="line">2. chmod +x shadowsocksR.sh</span><br><span class="line">3. ./shadowsocksR.sh 2&gt;&amp;1 | tee shadowsocksR.log</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>然后回车，会出现下图</p>
+</li>
+</ul>
+<p><img src="../../../../images/SS1.jpg" alt=""></p>
+<ul>
+<li>根据上图提示，输入密码，这是等下客户端连接的密码，设置完回车</li>
+</ul>
+<p><img src="../../../../images/SS2.jpg" alt=""></p>
+<ul>
+<li>接下来输入端口（1-65535），这个是连接用的端口，随便输个445，然后回车，等程序执行完毕</li>
+</ul>
+<p><img src="../../../../images/SS3.png" alt=""></p>
+<p>看到这里服务端的搭建就大功告成了！（如果连接不上，建议关闭防火墙）</p>
+<p><strong>卸载方法</strong></p>
+<p>运行以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./shadowsocksR.sh uninstall</span><br></pre></td></tr></table></figure></p>
+<p>安装完成后即已后台启动 ShadowsocksR ，运行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/shadowsocks status</span><br></pre></td></tr></table></figure>
+<p>可以查看 ShadowsocksR 进程是否已经启动。</p>
+<p>本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。</p>
+<p><strong>使用命令</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">启动：/etc/init.d/shadowsocks start</span><br><span class="line">停止：/etc/init.d/shadowsocks stop</span><br><span class="line">重启：/etc/init.d/shadowsocks restart</span><br><span class="line">状态：/etc/init.d/shadowsocks status</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">配置文件路径：/etc/shadowsocks.json</span><br><span class="line">日志文件路径：/var/log/shadowsocks.log</span><br><span class="line">代码安装目录：/usr/local/shadowsocks</span><br></pre></td></tr></table></figure>
+<p><strong>多用户配置示例</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;server&quot;:&quot;0.0.0.0&quot;,</span><br><span class="line">&quot;server_ipv6&quot;: &quot;[::]&quot;,</span><br><span class="line">&quot;local_address&quot;:&quot;127.0.0.1&quot;,</span><br><span class="line">&quot;local_port&quot;:1080,</span><br><span class="line">&quot;port_password&quot;:&#123;</span><br><span class="line">    &quot;8989&quot;:&quot;password1&quot;,</span><br><span class="line">    &quot;8990&quot;:&quot;password2&quot;,</span><br><span class="line">    &quot;8991&quot;:&quot;password3&quot;</span><br><span class="line">&#125;,</span><br><span class="line">&quot;timeout&quot;:300,</span><br><span class="line">&quot;method&quot;:&quot;aes-256-cfb&quot;,</span><br><span class="line">&quot;protocol&quot;: &quot;origin&quot;,</span><br><span class="line">&quot;protocol_param&quot;: &quot;&quot;,</span><br><span class="line">&quot;obfs&quot;: &quot;plain&quot;,</span><br><span class="line">&quot;obfs_param&quot;: &quot;&quot;,</span><br><span class="line">&quot;redirect&quot;: &quot;&quot;,</span><br><span class="line">&quot;dns_ipv6&quot;: false,</span><br><span class="line">&quot;fast_open&quot;: false,</span><br><span class="line">&quot;workers&quot;: 1</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>4.SS客户端的基本使用</p>
+<ul>
+<li>上网下载ss客户端，然后点击运行</li>
+<li>在任务栏找到 Shadowsocks 图标</li>
+<li>在服务器 菜单添加多个服务器</li>
+<li>选择 启用系统代理 来启用系统代理。请禁用浏览器里的代理插件，或把它们设置为使用系统代理。</li>
+<li>除了设为系统代理，你也可以直接自己配置浏览器代理。在 SwitchyOmega 中把代理设置为 SOCKS5 或 HTTP 的 127.0.0.1:1080。这个 1080 端口可以在服务器设置中设置。</li>
+</ul>
+<p>图解：<br><img src="../../../../images/SS4.png" alt=""></p>
+<p><a href="https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener">ss windows使用说明</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/23/hello-world/" data-id="cjgcevqni0000swac955aydot" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/11/12/搭建SS/" data-id="cjgcf580h000fe0acuztciw2c" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/centos/">centos</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vps/">vps</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-centos-6-8安装与配置Nginx" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/06/15/centos-6-8安装与配置Nginx/" class="article-date">
+  <time datetime="2017-06-15T15:33:08.000Z" itemprop="datePublished">2017-06-15</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Nginx/">Nginx</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/15/centos-6-8安装与配置Nginx/">centos 6.8安装与配置Nginx</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1.在/etc/yum.repos.d/目录下用vim创建一个源配置文件nginx.repo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/yum.repos.d/</span><br><span class="line">vim nginx.repo</span><br></pre></td></tr></table></figure></p>
+<p>填写以下内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[nginx]</span><br><span class="line">name=nginx repo</span><br><span class="line">baseurl=http://nginx.org/packages/centos/$releasever/$basearch/</span><br><span class="line">gpgcheck=0</span><br><span class="line">enabled=1</span><br></pre></td></tr></table></figure></p>
+<p>写好后，保存退出。</p>
+<p>2.通过yum直接安装Nginx<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install nginx -y</span><br></pre></td></tr></table></figure></p>
+<p>3.安装完成后就可以直接启动Nginx了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service nginx start</span><br></pre></td></tr></table></figure></p>
+<p>现在Nginx已经启动了，直接访问服务器的ip就可以看到Nginx的欢迎界面了。<br>如果出现：</p>
+<blockquote>
+<p>nginx: [emerg] socket() [::]:80 failed (97: Address family not supported by protocol)</p>
+</blockquote>
+<p>解决方案：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/nginx/conf.d/default.conf</span><br><span class="line"># 找到以下内容，然后修改</span><br><span class="line">listen       80 default_server;</span><br><span class="line">listen       [::]:80 default_server;</span><br><span class="line"></span><br><span class="line"># 修改为:</span><br><span class="line">listen       80;</span><br><span class="line">#listen       [::]:80 default_server;</span><br></pre></td></tr></table></figure></p>
+<p>重启Nginx<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service nginx restart</span><br></pre></td></tr></table></figure></p>
+<p>Nginx的命令已经配置文件位置：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">service nginx start   # 启动Nginx服务</span><br><span class="line">service nginx stop    # 关闭Nginx服务</span><br><span class="line">service nginx restart # 重启Nginx服务</span><br><span class="line">chkconfig nginx on    # 设为开机启动</span><br><span class="line">/etc/nginx/nginx.conf # Nginx配置文件位置</span><br></pre></td></tr></table></figure></p>
+<p>到此，Nginx已简单配置安装好了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/06/15/centos-6-8安装与配置Nginx/" data-id="cjgcf580b000ae0acco8i6ude" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Nginx/">Nginx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/centos/">centos</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-云服务器搭建javaweb环境" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/06/12/云服务器搭建javaweb环境/" class="article-date">
+  <time datetime="2017-06-12T15:39:35.000Z" itemprop="datePublished">2017-06-12</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/java/">java</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/12/云服务器搭建javaweb环境/">云服务器搭建javaweb环境</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><blockquote>
+<ul>
+<li>服务器：阿里云esc云服务器</li>
+<li>操作系统：centos 6.8 64位</li>
+<li>远程连接工具：Xshell</li>
+</ul>
+</blockquote>
+<h3 id="安装配置JDK环境"><a href="#安装配置JDK环境" class="headerlink" title="安装配置JDK环境"></a>安装配置JDK环境</h3><hr>
+<h4 id="1-用Xshell连接上服务器"><a href="#1-用Xshell连接上服务器" class="headerlink" title="1.用Xshell连接上服务器"></a>1.用Xshell连接上服务器</h4><p>打开Xshell，第一次会直接弹出会话对话框，以后的话点击“文件”–&gt;“新建”就好了。然后输出以下信息就好啦，其他的目前默认的不用改。<br><img src="../images/ssh1.png" alt=""></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/06/12/云服务器搭建javaweb环境/" data-id="cjgcf580d000ee0ac98hvvhmy" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-linux常用命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/23/linux常用命令/" class="article-date">
+  <time datetime="2017-03-23T13:48:22.000Z" itemprop="datePublished">2017-03-23</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/linux/">linux</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/23/linux常用命令/">linux常用命令</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ul>
+<li><p>查看目录与文件：ls</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#显示当前目录下所有文件详细信息</span><br><span class="line"> ls -la</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>切换目录：cd</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#切换当前目录为/etc/passwd</span><br><span class="line"> cd /etc/passwd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>显示当前目录：pwd</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建空文件：touch</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#在当前目录下创建文件test.txt</span><br><span class="line"> touch test.txt</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建目录：mkdir</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#在当前目录下创建test目录</span><br><span class="line"> mkdir test</span><br><span class="line">#在/etc/img目录下创建目录test，若无img目录，先创建img目录</span><br><span class="line"> mkdir -p /etc/img/test</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>查看文件内容：cat</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#查看test.txt内容</span><br><span class="line"> cat test.txt</span><br></pre></td></tr></table></figure></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/23/linux常用命令/" data-id="cjgcf58080008e0acrhl8wspg" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-mysql导入CSV格式文件" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/17/mysql导入CSV格式文件/" class="article-date">
+  <time datetime="2017-03-17T15:00:43.000Z" itemprop="datePublished">2017-03-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/linux/">linux</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/17/mysql导入CSV格式文件/">mysql导入CSV格式文件</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="sql语句如下："><a href="#sql语句如下：" class="headerlink" title="sql语句如下："></a>sql语句如下：</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">load data infile &apos;/home/user.csv&apos; --csv文件存放路径</span><br><span class="line">into table user character set utf8 --user为表名,character set mysql字符集,防止中文乱码</span><br><span class="line">fields terminated by &apos;,&apos;enclosed by &apos;&apos; --by后面为分隔符</span><br><span class="line">lines terminated by &apos;\r\n&apos;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/17/mysql导入CSV格式文件/" data-id="cjgcf58050006e0acrf7lwqpl" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-androidknow" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/10/29/androidknow/" class="article-date">
+  <time datetime="2016-10-29T14:27:03.000Z" itemprop="datePublished">2016-10-29</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/android/">android</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/10/29/androidknow/">android 基础知识</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>最近在自学android，收集了一些资料，所以稍微整理了一下。</strong></p>
+<h4 id="1-基础UI学习"><a href="#1-基础UI学习" class="headerlink" title="1. 基础UI学习"></a>1. 基础UI学习</h4><p>Button/TextView/EditText/CheckBox/ImageView/GirdView等控件，在activity_main.xml里设置，可以设置这些组件的属性。</p>
+<p>：id（唯一标识）</p>
+<p>：layout_width（宽）</p>
+<p>：layout_height（高）</p>
+<p>：text（文本）</p>
+<p>：textsize/textcolor/textstyle</p>
+<p>：layout_gravity(控件相对于父视图的位置)</p>
+<p>：gravity(指定控件的基本位置)</p>
+<p>: padding/margin</p>
+<p>: hint=“”（默认提示）</p>
+<p>: layout_weight(权重)  / =0（指定多大占多大）  /  &gt;0(对父视图可用空间进行平均分配)</p>
+<ul>
+<li>举例</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span><br><span class="line">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;</span><br><span class="line">    xmlns:tools=&quot;http://schemas.android.com/tools&quot;</span><br><span class="line">    android:layout_width=&quot;match_patent&quot;</span><br><span class="line">    android:layout_height=&quot;match_parent&quot;</span><br><span class="line">    android:orientation=&quot;horizontal&quot;</span><br><span class="line">    &gt;</span><br><span class="line">    &lt;TextView</span><br><span class="line">        android:layout_width=&quot;wrap_content&quot;</span><br><span class="line">        android:layout_height=&quot;wrap_content&quot;</span><br><span class="line">        android:id=&quot;@+id/txt1&quot;/&gt;</span><br><span class="line">&lt;/LinearLayout&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="2-五大布局学习"><a href="#2-五大布局学习" class="headerlink" title="2. 五大布局学习"></a>2. 五大布局学习</h4><ul>
+<li>线性布局：LinearLayout    </li>
+<li>相对布局：RelativeLayout    </li>
+<li>表格布局：TableLayout</li>
+<li>绝对布局：AbsolutLayout</li>
+<li>帧布局：     FrameLayout</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/10/29/androidknow/" data-id="cjgcf57zy0002e0ackuqef9sj" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/android/">android</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-First" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/05/17/First/" class="article-date">
+  <time datetime="2016-05-16T16:28:24.000Z" itemprop="datePublished">2016-05-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/hexo/">hexo</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/05/17/First/">First Day</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>这是<strong>新的开始</strong>，我用hexo创建了第一篇文章。</p>
+<p>通过下面的命令，就可以创建新文章<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">jun@jun MINGW64 ~</span><br><span class="line">$ cd d:work\blog</span><br><span class="line"></span><br><span class="line">jun@jun MINGW64 /d/workblog</span><br><span class="line">$ hexo new First</span><br><span class="line">INFO  Created: D:\workblog\source\_posts\First.md</span><br></pre></td></tr></table></figure></p>
+<p>感觉非常好=v=</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/05/17/First/" data-id="cjgcf57zp0000e0acki5atcly" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+
     </footer>
   </div>
   
@@ -114,18 +480,10 @@
           <aside id="sidebar">
   
     
-
-  
-    
-
-  
-    
-  
-    
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">分类</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Nginx/">Nginx</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/android/">android</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/hexo/">hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/java/">java</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/linux/">linux</a></li></ul>
     </div>
   </div>
 
@@ -133,12 +491,57 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Nginx/">Nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/android/">android</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/centos/">centos</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vps/">vps</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Nginx/" style="font-size: 10px;">Nginx</a> <a href="/tags/android/" style="font-size: 10px;">android</a> <a href="/tags/centos/" style="font-size: 15px;">centos</a> <a href="/tags/hexo/" style="font-size: 10px;">hexo</a> <a href="/tags/java/" style="font-size: 10px;">java</a> <a href="/tags/linux/" style="font-size: 20px;">linux</a> <a href="/tags/mysql/" style="font-size: 10px;">mysql</a> <a href="/tags/vps/" style="font-size: 10px;">vps</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">十一月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">六月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">十月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">五月 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2018/04/23/hello-world/">Hello World</a>
+            <a href="/2017/11/12/搭建SS/">在vps上搭建SS</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/15/centos-6-8安装与配置Nginx/">centos 6.8安装与配置Nginx</a>
+          </li>
+        
+          <li>
+            <a href="/2017/06/12/云服务器搭建javaweb环境/">云服务器搭建javaweb环境</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/23/linux常用命令/">linux常用命令</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/17/mysql导入CSV格式文件/">mysql导入CSV格式文件</a>
           </li>
         
       </ul>
@@ -153,7 +556,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2018 John Doe<br>
+      &copy; 2018 Hu Jun<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
